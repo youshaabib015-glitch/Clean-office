@@ -1,0 +1,547 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar ,.contact-head{
+    line-height: 1.3;
+    margin: 10px;
+}
+.contact-head{
+    margin: 0;
+    font-size: 18px;
+}
+.navbar p{
+    margin-left: 40px;
+}
+.clp{
+    color:rgb(19, 184, 19);
+}
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 10px 20px;
+}
+.navigation {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.navigation ul li:hover {
+     color: rgb(19, 184, 19); 
+     transform: scale(1.1);
+     cursor: pointer;
+}
+.quote {
+    padding: 10px 20px;
+    background: rgb(19, 184, 19);
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+}
+.quote:hover { background: rgb(16, 150, 16);
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+.trans {
+    padding: 10px 20px;
+    background: transparent;
+    border: none;
+    border-radius: 4px;
+    color: black;
+    cursor: pointer;
+    border: 2px,solid,black;
+}
+.trans:hover {
+    background: rgb(19, 184, 19);
+    color: white;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.navigation ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navigation ul li{
+    padding: 10px 15px;
+}
+.banner {
+    background-image: url(./images/Hero\ Iamge.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    width: 100%;
+    height: 450px;
+}
+.banner-heading h2 ,.pricing-header h2{
+    font-size: medium;
+    font-weight: normal;
+    color: rgb(80, 80, 80);
+    margin-left: 20px;
+}
+.pricing-header h2{
+    color: white;
+    margin-left: 0;
+}
+.heading,.pricing-header{
+    font-size: 30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.pricing-header{
+    color: white;
+}
+.sub-heading{
+    font-size: 15px;
+    color: rgb(80, 80, 80);
+    margin-left: 20px;
+}
+.banner-heading {
+    margin: 20px;
+}
+.banner-button{
+    margin-left: 30px;
+}
+.banner-button button {
+    margin: 0 10px;
+}
+.pro-header button{
+    margin: 0 10px;
+}
+.spacing{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.service-heads ,.about-us ,.news ,.warapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.closing-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.cmp{
+    display: flex;
+    flex-direction: row;
+}
+.cmp ul{
+    margin-top: 20px;
+    list-style: none;
+    margin: 10px;
+}
+.cmp ul li{
+    text-align: center;
+    text-decoration: none;
+    line-height: 50px;
+}
+.final{
+    margin-top: 30px;
+    background-color: rgb(26, 25, 25);
+    color: white;
+    padding-top: 100px;
+}
+.about-us{
+    margin-bottom: 10px;
+}
+.service-head,.about-us h2,.feedback-header h2 {
+    font-size: 30px;
+}
+.pro-header h2{
+    font-size: 30px;
+}
+.service-head strong{
+    font-size: large;
+}
+
+.about-heads span ,.feedmsg ,.newsmsg span{
+    color: rgb(80, 80, 80);
+}
+.feedmsg ,.contact-info{
+    line-height: 1.5;
+}
+.cont-info{
+    margin-top: 25px;
+}
+.closing-header{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.conclusion{
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+input ,textarea{
+    font-size: 20px;
+    color: rgb(80,80,80);
+    width: 80%;
+    background-color: whitesmoke;
+    border: none;
+    box-shadow: aliceblue;
+    padding: 10px;
+    border-radius: 8px;
+}
+.ftemail{
+   font-size: 13px;
+    color: white;
+    width: 90%;
+    background-color: transparent;
+    border: 1px solid aliceblue;
+    box-shadow: aliceblue;
+    padding: 5px;
+    border-radius: 8px;
+}
+.feed-btn{
+    margin-top: 20px;
+    margin-right: 10px;
+    padding: 20px;
+    background-color: rgb(19, 184, 19);
+    color: white;
+    font-size: 15px;
+    border: 1px solid rgb(19, 184, 19);
+    border-radius: 15px;
+}
+.service-subhead span{
+    color: rgb(80, 80, 80);
+}
+hr{
+    border: none;
+    height: 1px;
+    background-color: rgb(116, 165, 116);
+    margin-bottom: 20px;
+}
+
+.service-cards, .about-cards,.pricing-cards,.news-cards{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.pricing-cards{
+    justify-content: center;
+    align-items: center;
+}
+.pricing-card1,.pricing-card2,.pricing-card3{
+    background-color: rgb(234, 243, 248);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    line-height: 2.0;
+}
+.pricing-card1 ul,.pricing-card2 ul,.pricing-card3 ul{
+    color: rgb(80, 80, 80);
+    margin: 20px;
+}
+.svc-img{
+    border-radius: 16px;
+}
+.service-cards h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.service-cards pre ,.news-cards pre{
+    color: rgb(80,80,80);
+}
+.para{
+    font-size: x-small;
+    width: 200px;
+}
+.paraa{
+    font-size: small;
+    color: rgb(80,80,80);
+}
+.social{
+    font-size: x-large;
+}
+.social a{
+    color: black;
+    text-decoration: none;
+}
+.service-closing,.feedback-body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.closing-head h2{
+    font-size: medium;
+}
+.big-head{
+    font-size: 30px;
+}
+.tiny-head{
+    font-size: 15px;
+    color: rgb(80, 80, 80);
+    line-height: 0.5;
+}
+.img-part,.img-pro{
+    display: flex;
+    flex-direction: row;
+}
+.img-proo{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(234, 243, 248);
+    border-top: 10px solid rgb(19, 184, 19);
+    border-right: 10px solid rgb(19, 184, 19) ;
+    border-radius: 15px;
+    height: fit-content;
+}
+.rob-img,.robert{
+    margin:10px;
+}
+.rob-img{
+    border: 1px solid rgb(234, 243, 248);
+    border-radius: 15px;
+}
+
+.img1 {
+    position: relative;
+    border-left: 12px solid rgb(19, 184, 19);
+    border-top: 12px solid rgb(19, 184, 19);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+.img2{
+    position: absolute;
+    margin: 100px;
+    border: 8px solid white ;
+    border-radius: 12px;   
+}
+.pro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.lists{
+    display: flex;
+    flex-direction: row;
+}
+.list-1{
+    margin-right: 20px;
+}
+.list-2{
+    margin-left: 20px;
+}
+.list-1 div{
+    background-color: whitesmoke;
+    border: 1ps solid whitesmoke;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 5px;
+}
+.cont-info{
+    background-color: whitesmoke;
+    border: 1ps solid whitesmoke;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+.list-2 div{
+    background-color: whitesmoke;
+    margin-bottom: 20px;
+    border: 1ps solid whitesmoke;
+    border-radius: 5px;
+    padding: 5px;
+}
+.pricing{
+    background:linear-gradient(to bottom,rgb(19, 184, 19) 98%, white 100%),url(./images/Background.png);
+    background-repeat: no-repeat;
+    background-size: 100% 65%;
+    width: 100%;
+    margin-top: 40px;
+    background-blend-mode:multiply;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 40px;
+}
+.selector{
+   background-color: rgb(234, 243, 248);
+   display: inline;
+   padding: 10px;
+   border: 1px solid rgb(234, 243, 248);
+   border-radius: 15px; 
+}
+.select-btn{
+    background-color: rgb(19, 184, 19);
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 5px;
+}
+.ns-crd ,.info-head{
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    
+}
+
+@media (max-width: 768px) {
+    .top {
+        flex-direction: column;
+        align-items: center;
+        font-size: small;
+        gap: 10px;
+    }
+    .navigation {
+        flex-direction: column;
+        align-items: center;
+    }
+    .navigation ul {
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        align-items: center;
+    }
+    .navigation button {
+        margin: 10px 0;
+    }
+    .navbar {
+    line-height: 1.2;
+    margin: 5px;
+}
+.quote{
+    padding: 5px;
+    height: fit-content;
+    margin-top: 0px;
+    margin-left: 0;
+}
+.trans {
+    padding: 10px 20px;
+    background: transparent;
+    border: none;
+    border-radius: 4px;
+    color: black;
+    cursor: pointer;
+    border: 2px,solid,black;
+}
+.banner-heading h2{
+    font-size: small;
+    font-weight: normal;
+    margin-left: 20px;
+}
+
+.heading{
+    font-size: 18px;
+    margin-left: 20px;
+}
+.sub-heading{
+    font-size: 10px;
+    margin-left: 20px;
+}
+.banner .pricing{
+    height: 300px;
+}
+.banner-button button{
+    height: fit-content;
+    font-size: xx-small;
+}
+.spacing{
+    margin-left: 0;
+    margin-right: 0px;
+}
+.service-heads ,.about-us{
+    margin-top: 20px;
+}
+.service-head{
+    margin-bottom: 20px;
+}
+.service-cards,.about-cards,.pricing-cards,.news-cards{
+    display: flex;
+    flex-direction: column;
+}
+.para{
+    font-size: small;
+}
+.service-closing,.feedback-body{
+    margin-top: 20px;
+}
+
+.quote {
+    padding: 10px 20px;
+    background: rgb(19, 184, 19);
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+}
+.img-part,.img-pro{
+    display: flex;
+    flex-direction: column;
+}
+
+.img1 , .img2{
+    height: 150px;
+    width: 150px;
+    position: unset;
+    margin: 20px 0px;
+    border: 2px solid rgb(19, 184, 19);
+}
+.pro{
+    display: flex;
+    flex-direction: column;
+}
+.lists{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.pro-header h2{
+    font-size: 20px;
+}
+.pricing{
+    background-size: 100% 40%;
+}
+.feed-btn{
+    font-size: small;
+    padding: 10px;
+}
+.ns-crd ,.info-head{
+    font-size: medium;
+}
+.contact-head{
+    margin: 0;
+    font-size: small;
+}
+.cont-info{
+    margin-top: 10px;
+}
+input ,textarea{
+    font-size: small;
+}
+.closing-header{
+    display: flex;
+    flex-direction: column;
+}
+.cmp{
+    display: flex;
+    flex-direction: column;
+}
+.closing-header ,.conclusion{
+    margin-left: 0;
+    margin-right: 0px;
+}
+.final{
+    margin-top: 15px;
+    padding-top: 10px;
+}
+.cmp ul li{
+    line-height: 20px;
+}
+
+}
